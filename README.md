@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Everyone has one. Mine's probably better than yours.
+Run bin/init.sh to put these files where they go.
