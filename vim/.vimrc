@@ -10,6 +10,9 @@ set foldmethod=indent
 :nmap \M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
 :nmap \m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
 
+"go stuff
+let g:go_fmt_autosave = 0
+
 "stuff for tabs
 function! SetIndentSpaces()
         set tabstop=2
