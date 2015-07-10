@@ -9,9 +9,24 @@ set foldmethod=indent
 :nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
 :nmap \M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
 :nmap \m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
-autcmd BufRead,BufNewFile *.go
-	\set noexpandtab 
-:set expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
+"stuff for tabs
+function! SetIndentSpaces()
+        set tabstop=2
+        set shiftwidth=2
+        set expandtab
+        echo "Using spaces for indentation"
+endfunction
+
+function! SetIndentTabs()
+        set tabstop=8
+        set shiftwidth=8
+        set noexpandtab
+        echo "Using tabs for indentation"
+endfunction
+
+autocmd BufEnter,BufRead *.go call SetIndentTabs() 
+autocmd BufEnter,BufRead *.{md,ls,pp} call SetIndentSpaces()
 
 "vim mouse support!
 set ttyfast
