@@ -1,6 +1,6 @@
 #!/bin/bash
 # be in the right place.
-cd ~/projects/dotfiles
+cd ~/Projects/Personal/dotfiles
 
 # copy the basic configs
 for i in vim tmux; do
