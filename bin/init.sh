@@ -3,5 +3,5 @@
 cd ~/projects/dotfiles
 
 for i in vim tmux; do
-  rsync -av $i/* ~/
+  rsync -av $i/. ~/
 done
