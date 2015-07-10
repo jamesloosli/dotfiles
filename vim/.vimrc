@@ -15,14 +15,12 @@ function! SetIndentSpaces()
         set tabstop=2
         set shiftwidth=2
         set expandtab
-        echo "Using spaces for indentation"
 endfunction
 
 function! SetIndentTabs()
         set tabstop=8
         set shiftwidth=8
         set noexpandtab
-        echo "Using tabs for indentation"
 endfunction
 
 autocmd BufEnter,BufRead *.go call SetIndentTabs() 
