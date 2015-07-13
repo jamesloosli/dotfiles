@@ -65,3 +65,9 @@ set ttymouse=xterm2
 "\e = toggle
 :nmap \e :NERDTreeToggle<CR>
 
+"Solarized Colors
+syntax enable
+set background=dark
+colorscheme solarized
+
+
