@@ -8,5 +8,15 @@ for i in vim tmux; do
 done
 
 # clone vim stuff direct from github for sanity
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+if [ ! -d ~/.vim/bundle/nerdtree ]; then
+  git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+fi
+
+if [ ! -d ~/.vim/bundle/vim-go ]; then
+  git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+fi
+
+if [! -d ~/.vim/bundle/vim-colors-solarized]; then
+  git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+fi
+
