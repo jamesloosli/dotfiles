@@ -16,7 +16,7 @@ if [ ! -d ~/.vim/bundle/vim-go ]; then
   git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 fi
 
-if [! -d ~/.vim/bundle/vim-colors-solarized]; then
+if [ ! -d ~/.vim/bundle/vim-colors-solarized]; then
   git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 fi
 
