@@ -3,9 +3,13 @@
 cd ~/Projects/Personal/dotfiles
 
 # copy the basic configs
-for i in vim tmux; do 
+for i in vim tmux bash; do 
   rsync -a $i/. ~/ 
 done
+
+# add line for bash customizations to normal bashrc
+echo "source ~/.bash/*" >> ~/.bashrc
+
 
 # clone vim stuff direct from github for sanity
 if [ ! -d ~/.vim/bundle/nerdtree ]; then
