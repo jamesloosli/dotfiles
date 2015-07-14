@@ -27,7 +27,7 @@ function! SetIndentTabs()
 endfunction
 
 autocmd BufEnter,BufRead *.go call SetIndentTabs() 
-autocmd BufEnter,BufRead *.{md,ls,pp} call SetIndentSpaces()
+autocmd BufEnter,BufRead * call SetIndentSpaces()
 
 "vim mouse support!
 set ttyfast
