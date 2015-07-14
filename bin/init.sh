@@ -7,10 +7,6 @@ for i in vim tmux bash; do
   rsync -a $i/. ~/ 
 done
 
-# add line for bash customizations to normal bashrc
-echo "source ~/.bash/*" >> ~/.bashrc
-
-
 # clone vim stuff direct from github for sanity
 if [ ! -d ~/.vim/bundle/nerdtree ]; then
   git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
