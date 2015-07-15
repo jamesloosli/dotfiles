@@ -4,6 +4,9 @@ filetype plugin indent on
 "folding
 set foldmethod=indent
 
+" I like autoindent
+set ai
+
 "fix indentation
 :nmap \t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
 :nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
