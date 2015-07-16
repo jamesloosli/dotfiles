@@ -1,2 +1,3 @@
 alias ll='ls -la'
 alias yolo='git commit -m "DO IT LIVE" .'
+alias ppjson='python -m json.tool'
