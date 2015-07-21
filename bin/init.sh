@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # be in the right place.
-cd ~/Projects/Personal/dotfiles
+DIR=$(dirname $0)
+cd $DIR/..
 
 # copy the basic configs
 for i in vim tmux bash; do 
@@ -10,4 +11,3 @@ done
 
 # kick off the vim.sh setup
 bin/vim.sh
-
