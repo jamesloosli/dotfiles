@@ -4,6 +4,10 @@ filetype plugin indent on
 "folding
 set foldmethod=indent
 
+"cursor highlighting thanks to @beppu
+set cursorline
+set cursorcolumn
+
 " I like autoindent
 set ai
 
