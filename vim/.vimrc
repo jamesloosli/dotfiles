@@ -1,8 +1,12 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
 "folding
 set foldmethod=indent
+
+"line numbers
+set nu
 
 "cursor highlighting thanks to @beppu
 set cursorline
