@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Added .bin in my home dir, and sbin because some brew utils are stored there
-PATH=$PATH:~/.bin:/usr/local/sbin
+# Migrating to macports from brew because... reasons.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 if [ $SHELL = "/bin/bash" ] ; then
 	source ~/.bashrc
