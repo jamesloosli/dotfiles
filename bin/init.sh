@@ -11,3 +11,6 @@ done
 
 # kick off the vim.sh setup
 bin/vim.sh
+
+# kick off the go.sh setup
+bin/go.sh
