@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Migrating to macports from brew because... reasons.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# back to brew. 
+export PATH=/usr/local:$PATH
 
 if [ $SHELL = "/bin/bash" ] ; then
 	source ~/.bashrc
