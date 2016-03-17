@@ -8,6 +8,8 @@ VIM_MODULES_GITHUB=("scrooloose/nerdtree"\
  "bling/vim-airline"\
  "digitaltoad/vim-jade"\
  "mitsuhiko/vim-jinja"\
+ "airblade/vim-gitgutter"\
+ "bling/vim-bufferline"\
  "gkz/vim-ls")
 
 # clone vim stuff direct from github for sanity
