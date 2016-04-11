@@ -38,6 +38,7 @@ function! SetIndentTabs()
 endfunction
 
 autocmd BufEnter,BufRead *.go call SetIndentTabs() 
+autocmd BufEnter,BufRead *.py call SetIndentTabs() 
 autocmd BufEnter,BufRead * call SetIndentSpaces()
 
 "vim mouse support!
@@ -110,4 +111,5 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-
+"Syntax highlighting
+au BufNewFile,BufRead *.jinja set ft=jinja

@@ -9,6 +9,7 @@ VIM_MODULES_GITHUB=("scrooloose/nerdtree"\
  "digitaltoad/vim-jade"\
  "mitsuhiko/vim-jinja"\
  "airblade/vim-gitgutter"\
+ "lepture/vim-jinja"\
  "bling/vim-bufferline"\
  "gkz/vim-ls")
 

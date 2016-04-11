@@ -6,3 +6,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 if [ $SHELL = "/bin/bash" ] ; then
 	source ~/.bashrc
 fi
+
+if [ -z ~/.profile ] ; then
+  source ~/.profile
+fi
