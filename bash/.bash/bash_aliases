@@ -1,6 +1,9 @@
+# general aliases
 alias ll='ls -la'
 alias yolo='git commit -m "DO IT LIVE" .'
 alias ppjson='python -m json.tool'
+alias randompass16='date +%s | sha256sum | base64 | head -c 16 ; echo'
+alias randompass32='date +%s | sha256sum | base64 | head -c 32 ; echo'
 
 # git aliases
 alias gc='git commit'
