@@ -37,7 +37,7 @@ function! SetIndentTabs()
         set noexpandtab
 endfunction
 
-autocmd BufEnter,BufRead *.go call SetIndentTabs() 
+autocmd BufEnter,BufRead *.go,*.c,*.h,Makefile call SetIndentTabs() 
 autocmd BufEnter,BufRead *.py call SetIndentTabs() 
 autocmd BufEnter,BufRead * call SetIndentSpaces()
 
