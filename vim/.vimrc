@@ -24,22 +24,10 @@ set ai
 "go stuff
 let g:go_fmt_autosave = 0
 
-"stuff for tabs
-function! SetIndentSpaces()
-        set tabstop=2
-        set shiftwidth=2
-        set expandtab
-endfunction
-
-function! SetIndentTabs()
-        set tabstop=8
-        set shiftwidth=8
-        set noexpandtab
-endfunction
-
-autocmd BufEnter,BufRead *.go,*.c,*.h,Makefile call SetIndentTabs() 
-autocmd BufEnter,BufRead *.py call SetIndentTabs() 
-autocmd BufEnter,BufRead * call SetIndentSpaces()
+" enable filetype detection:
+filetype on
+filetype plugin on
+filetype indent on " file type based indentation
 
 "vim mouse support!
 set ttyfast

@@ -13,3 +13,6 @@ alias ga='git add'
 alias gs='git status'
 alias gl='git pull'
 alias gco='git checkout'
+
+# vpn alias
+alias vpn='~/.bin/vpn.sh'
