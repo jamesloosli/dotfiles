@@ -27,7 +27,7 @@ let g:go_fmt_autosave = 0
 " enable filetype detection:
 filetype on
 filetype plugin on
-filetype indent on " file type based indentation
+"filetype indent on " file type based indentation
 
 "vim mouse support!
 set ttyfast

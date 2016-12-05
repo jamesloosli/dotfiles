@@ -1,17 +1,18 @@
 #!/bin/bash
 
 PWD=$(pwd)
-VIM_MODULES_GITHUB=("scrooloose/nerdtree"\
- "fatih/vim-go"\
+VIM_MODULES_GITHUB=("airblade/vim-gitgutter"\
  "altercation/vim-colors-solarized"\
- "saltstack/salt-vim"\
  "bling/vim-airline"\
- "digitaltoad/vim-jade"\
- "mitsuhiko/vim-jinja"\
- "airblade/vim-gitgutter"\
- "lepture/vim-jinja"\
  "bling/vim-bufferline"\
- "gkz/vim-ls")
+ "digitaltoad/vim-jade"\
+ "fatih/vim-go"\
+ "gkz/vim-ls"\
+ "lepture/vim-jinja"\
+ "mitsuhiko/vim-jinja"\
+ "saltstack/salt-vim"\
+ "scrooloose/nerdtree"\
+ "wakatime/vim-wakatime")
 
 # clone vim stuff direct from github for sanity
 for i in ${VIM_MODULES_GITHUB[@]}; do
