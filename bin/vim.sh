@@ -11,8 +11,7 @@ VIM_MODULES_GITHUB=("airblade/vim-gitgutter"\
  "lepture/vim-jinja"\
  "mitsuhiko/vim-jinja"\
  "saltstack/salt-vim"\
- "scrooloose/nerdtree"\
- "wakatime/vim-wakatime")
+ "scrooloose/nerdtree")
 
 # clone vim stuff direct from github for sanity
 for i in ${VIM_MODULES_GITHUB[@]}; do
